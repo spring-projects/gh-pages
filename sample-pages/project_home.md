@@ -1,6 +1,37 @@
 ---
 layout: base_layout
 title: Spring Project Title
+
+badges:
+  - name: CI (Bamboo)
+    image_url: http://marketplace.servicerocket.com/static/products/atlassian/atlassian-bamboo-logo.png
+    url:  https://ci.spring.io/browse/SPRINGDATAJPA
+
+  - name: Source (GitHub)
+    image_url: https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png
+    url:  https://github.com/spring-projects/spring-data-jpa
+
+  - name: Issues (JIRA)
+    image_url: http://redmine-solutions.com/assets/images/jira-logo.png
+    url:  https://github.com/spring-projects/spring-data-jpa
+
+  - name: Forum (vBulletin)
+    image_url: http://farm8.staticflickr.com/7020/6672142779_a1c3ac2721.jpg
+    url:  http://forum.spring.io/forum/spring-projects/data
+
+  - name: StackOverflow
+    image_url: http://myrrix.com/wp-content/uploads/2012/06/stackoverflow.png
+    url:  http://so.com/questions/tagged/spring-data-jpa
+
+  - name: Metrics (SonarQube)
+    image_url: https://2.gravatar.com/avatar/61bb6bd5e640415490ef28e5fdcc746f?d=https%3A%2F%2Fidenticons.github.com%2Fb6100dcb8d05f7c0a9b28633c75fa606.png&s=420
+    url:  https://sonar.springsource.org/dashboard/index/org.springframework.data:spring-data-jpa
+
+  - name: Twitter
+    image_url: http://www.health2con.com/events/files/twitter-logo-square-150x150.png
+    url:  https://twitter.com/SpringData
+
+
 ---
 
 <!-- Specify the parent of this project (or delete if none) to influence the rendering of the breadcrumb -->
