@@ -105,9 +105,13 @@
 .projects--wrapper.project-aggregator .project--container .project-links--container {
     margin-top: 42px;
 }
-
+.project-header--wrapper {
+  background-color: #666;
+  border-bottom: 1px solid #34302D;
+}
 .project-header--wrapper .billboard--container {
-  margin-top: 60px;
+  margin: 60px 0;
+  position: relative;
 }
 .project-header--wrapper .content--title {
   position: relative;
@@ -174,9 +178,11 @@
   margin-top: 40px;
 }
 .project-header--wrapper .billboard-bg {
-  background-color: #666;
+/*  background-color: #666;
   position: relative;
-  min-width: 1084px;
+  min-width: 1084px;*/
+  height: auto;
+  border-bottom: none;
 }
 .project-header--wrapper .billboard-bg .billboard-icon {
   width: 364px;
