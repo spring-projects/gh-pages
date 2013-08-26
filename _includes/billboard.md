@@ -28,6 +28,8 @@
 </div>
 </div>
 <div class="billboard-bg">
-<div class="billboard-icon icon-spring-data-large"></div>
+<div class="billboard-icon icon-spring-data-large">
+<img src="../img/icon-spring-data-large.png">
+</div>
 </div>
 </div>
