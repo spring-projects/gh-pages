@@ -95,6 +95,10 @@
   -ms-transform: rotate(-45deg);
 }
 
+.projects--wrapper.project-aggregator > p {
+    display: inline-block;
+}
+
 .projects--wrapper.project-aggregator .project--container {
     height: 160px;
 }
