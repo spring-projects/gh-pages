@@ -1,4 +1,4 @@
-<div class="project-body--section" id="download-widget">
+<div id="download-widget">
 <div class="row-fluid download-widget--container">
 <div class="download-widget--header js-item-dropdown-widget--wrapper">
 <div class="download-widget--title">
