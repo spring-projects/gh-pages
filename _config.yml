@@ -26,11 +26,12 @@ github_repo_url: http://github.com/spring-projects/spring-framework
 forum: http://forum.springframework.io/forum/spring-projects/container
 
 
-### Spring website specific
+### The following properties are constant for most projects
+
 main_site_url: http://springframework.io
 projects_site_url: http://projects.springframework.io
 forum_url: http://forum.springframework.io
 
 
-### For testing only (comment this out in a real project)
+### For testing only
 #sample: true
