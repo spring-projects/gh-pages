@@ -363,13 +363,14 @@
 }
 
 .project-sub-link--wrapper {
-  padding: 20px 20px 18px;
+  padding: 15px;
 }
 .project-sub-link--wrapper .project-sub-link {
-  min-width: 30px;
-  height: 30px;
+  min-width: 32px;
+  height: 32px;
   display: inline-block;
-  margin-right: 2.9%;
+  margin-right: 2.65%;
+  vertical-align: middle;
 }
 .project-sub-link--wrapper .project-sub-link:last-child {
   margin-right: 0;

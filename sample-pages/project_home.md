@@ -7,28 +7,27 @@ badges:
 
   custom:
     - name: CI (Bamboo)
-      image_url: http://marketplace.servicerocket.com/static/products/atlassian/atlassian-bamboo-logo.png
       url:  https://ci.spring.io/browse/SPRINGDATAJPA
+      icon: ci
 
     - name: Source (GitHub)
-      image_url: https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png
       url:  https://github.com/spring-projects/spring-data-jpa
+      icon: github
 
     - name: Issues (JIRA)
-      image_url: http://redmine-solutions.com/assets/images/jira-logo.png
       url:  https://github.com/spring-projects/spring-data-jpa
+      icon: tracking
 
     - name: Forum (vBulletin)
-      image_url: http://farm8.staticflickr.com/7020/6672142779_a1c3ac2721.jpg
       url:  http://forum.spring.io/forum/spring-projects/data
+      icon: forum
 
     - name: StackOverflow
-      image_url: http://myrrix.com/wp-content/uploads/2012/06/stackoverflow.png
       url:  http://so.com/questions/tagged/spring-data-jpa
-
+      icon: stackoverflow
     - name: Metrics (SonarQube)
-      image_url: https://2.gravatar.com/avatar/61bb6bd5e640415490ef28e5fdcc746f?d=https%3A%2F%2Fidenticons.github.com%2Fb6100dcb8d05f7c0a9b28633c75fa606.png&s=420
       url:  https://sonar.springsource.org/dashboard/index/org.springframework.data:spring-data-jpa
+      icon: metrics
 
 ---
 
