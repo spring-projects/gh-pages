@@ -4,12 +4,11 @@
 .projects--wrapper .project--container {
   border: 1px solid #34302d;
   display: inline-block;
-  width: 286px;
+  width: 328px;
   height: 338px;
   margin: 0 6px 20px 6px;
   vertical-align: top;
   text-align: center;
-  padding: 30px 20px;
 }
 .projects--wrapper .project--container .project-logo--container {
   margin-bottom: 25px;
@@ -100,7 +99,29 @@
 }
 
 .projects--wrapper.project-aggregator .project--container {
+    transition: all 0.20s;
+    -webkit-transition: all 0.20s;
+    -moz-transition: all 0.20s;
+    -ms-transition: all 0.20s;
+    -o-transition: all 0.20s;
+    height: auto;
+}
+.projects--wrapper.project-aggregator .project--container:hover {
+    text-decoration: none;
+    box-shadow: 0 0 3px #6db33f;
+    border-color: #6db33f;
+}
+.projects--wrapper.project-aggregator .project--container:active {
+    box-shadow: none;
+}
+
+.projects--wrapper.project-aggregator .project--container a {
+    padding: 30px 20px;
     height: 160px;
+    width: 288px;
+    display: inline-block;
+    color: #34302D;
+    text-decoration: none;
 }
 .projects--wrapper.project-aggregator .project--container .project-links--container {
     margin-top: 42px;
