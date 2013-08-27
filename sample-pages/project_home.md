@@ -11,10 +11,6 @@ badges:
 
   # Customize your project's badges. Delete any entries that do not apply.
   custom:
-    - name: CI (Bamboo)
-      url:  https://build.springsource.org/browse/SPRINGDATAJPA
-      icon: ci
-
     - name: Source (GitHub)
       url:  https://github.com/spring-projects/spring-data-jpa
       icon: github
@@ -22,6 +18,10 @@ badges:
     - name: Issues (JIRA)
       url:  http://jira.springsource.org/browse/DATAJPA
       icon: tracking
+
+    - name: CI (Bamboo)
+      url:  https://build.springsource.org/browse/SPRINGDATAJPA
+      icon: ci
 
     - name: Forum
       url:  http://forum.springframework.io/forum/spring-projects/data
