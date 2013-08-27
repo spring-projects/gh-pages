@@ -6,15 +6,8 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
-### Spring website specific
-main_site_url: http://springframework.io
-projects_site_url: http://projects.springframework.io
-forum_url: http://forum.springframework.io
 
-### For testing only (comment this out in a real project)
-#sample: true
-
-### Below this line might vary between projects
+### The following properties will change on a project-by-project basis
 
 # Context path in the remote website (usually /<project>), will be prepended to absolute URLs for static resources
 baseurl: /spring-framework
@@ -29,6 +22,16 @@ project: spring-framework
 # Project github URL
 github_repo_url: http://github.com/spring-projects/spring-framework
 
-
-# A forum link specific to this project
+# Project forum URL
 forum: http://forum.springframework.io/forum/spring-projects/container
+
+
+### The following properties are constant for most projects
+
+main_site_url: http://springframework.io
+projects_site_url: http://projects.springframework.io
+forum_url: http://forum.springframework.io
+
+
+### For testing only
+#sample: true
