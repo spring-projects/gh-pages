@@ -7,7 +7,7 @@ badges:
 
   custom:
     - name: CI (Bamboo)
-      url:  https://ci.spring.io/browse/SPRINGDATAJPA
+      url:  https://build.springframework.io/browse/SPRINGDATAJPA
       icon: ci
 
     - name: Source (GitHub)
@@ -15,16 +15,17 @@ badges:
       icon: github
 
     - name: Issues (JIRA)
-      url:  https://github.com/spring-projects/spring-data-jpa
+      url:  http://jira.springsource.org/browse/DATAJPA
       icon: tracking
 
-    - name: Forum (vBulletin)
-      url:  http://forum.spring.io/forum/spring-projects/data
+    - name: Forum
+      url:  http://forum.springframework.io/forum/spring-projects/data
       icon: forum
 
     - name: StackOverflow
-      url:  http://so.com/questions/tagged/spring-data-jpa
+      url:  http://stackoverflow.com/questions/tagged/spring-data-jpa
       icon: stackoverflow
+
     - name: Metrics (SonarQube)
       url:  https://sonar.springsource.org/dashboard/index/org.springframework.data:spring-data-jpa
       icon: metrics
