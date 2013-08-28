@@ -1,16 +1,14 @@
 .js-download-widget-selector {
     display: inline;
 }
-
 .container-fluid {
   width: 1024px !important;
 }
-
-.search-dropdown--container, footer, .team-map--wrapper {
-  min-width: 1024px;
-}
 .navbar-inner {
-  min-width: 1044px;
+  min-width: 1060px;
+}
+.billboard--wrapper, .key-feature--wrapper, .offset-feature--container, .support--wrapper, footer, .search-dropdown--container, .team-map--wrapper, .billboard-bg {
+  min-width: 1100px;
 }
 
 body {
