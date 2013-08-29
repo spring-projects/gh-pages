@@ -1,4 +1,3 @@
-
 # Introduction
 
 Spring's project pages are based on [Jekyll](http://jekyllrb.com) and [GitHub Pages](http://pages.github.com/). This means that each project's website is stored within the project repo, in a special branch called "gh-pages". In order to keep everything looking similar across the many individual Spring projects, common elements of the Jekyll site layout, css, etc are stored in [a shared gh-pages repository](http://github.com/spring-projects/gh-pages). If you're seeing this README in the gh-pages branch of an actual Spring project, that's because this file, along with all the other common files get merged periodically into each project.
@@ -13,6 +12,11 @@ From within your Spring project's git checkout directory:
 ### Create and checkout the gh-pages branch
 
     git checkout --orphan gh-pages
+    
+### Remove all files
+
+    git rm -rf *
+    git rm -rf '.*'
 
 ### Add the gh-pages-upstream remote
 
@@ -108,7 +112,8 @@ Use the `--watch` flag to pick up changes to files as you make them, allowing yo
 Once you're satisified with your edits, commit your changes and push the `gh-pages` pages up to your project's `origin` remote.
 
     git commit -m "Initialize project page"
-    git push origin gh-pages
+    git push --set-upstream origin gh-pages
+    git push
 
 
 ## View your site live on the web
