@@ -724,7 +724,7 @@ input.floating-input:focus {
 
 .item-slider-widget {
   display: inline-block;
-  margin-left: 6px;
+  margin-left: 15px;
 }
 .item-slider-widget .item--slider {
   height: 32px;

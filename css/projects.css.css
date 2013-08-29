@@ -269,7 +269,7 @@
   display: inline-block;
 }
 .download-widget--container .btn-group.bootstrap-select.selector {
-  margin: 0 0 0 6px;
+  margin: 0 0 0 15px;
 }
 .download-widget--container .btn-group.bootstrap-select.selector .filter-option{
   padding: 7px 0 7px 19px;
