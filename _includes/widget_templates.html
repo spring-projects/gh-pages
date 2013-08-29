@@ -11,7 +11,10 @@
                     {@ _.each(releases, function(release) { @}
                     <div class="item--body--version">
                         <div class="item--left-column">
-                            <p>{@= release.version @}</p>
+                            <p>{@= release.versionDisplayName @}</p>
+                            {@ if(release.current) { @}
+                                <div class="spring-icon spring-icon-current-version"></div>
+                            {@ } @}
                             <div class="spring-icon {@= release.statusIconClass() @}"></div>
                         </div>
                         <div class="item--right-column">
@@ -30,7 +33,16 @@
     <div class="js-download-widget-selector">
         <select class='selector selectpicker'>
             {@ _.each(releases, function(release, index) { @}
-            <option value="{@= index @}" data-content="<span>{@= release.versionDisplayName @}</span><div class='spring-icon {@= release.statusIconClass() @}'/>" data-current="{@= release.current @}"> ()</option>
+            <option value="{@= index @}"
+                    data-content="
+                        <span>{@= release.versionDisplayName @}</span>
+                        {@ if(release.current) { @}
+                            <div class='spring-icon spring-icon-current-version'></div>
+                        {@ } @}
+                        <div class='spring-icon {@= release.statusIconClass() @}'/>"
+                    data-current="{@= release.current @}">
+                ()
+            </option>
             {@ }); @}
         </select>
     </div>

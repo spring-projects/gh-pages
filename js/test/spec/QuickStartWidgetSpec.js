@@ -21,10 +21,11 @@ describe("QuickStartWidget", function () {
               "snapshotsEnabled": false
             },
             "version": "1.4.0.RC1",
-            "supported": false,
-            "versionDisplayName": "1.4.0.RC1",
             "current": false,
-            "preRelease": true
+            "preRelease": true,
+            "snapshot": false,
+            "generalAvailability": false,
+            "versionDisplayName": "1.4.0.RC1"
           },
           {
             "refDocUrl": "http://docs.springframework.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/",
@@ -33,10 +34,11 @@ describe("QuickStartWidget", function () {
             "artifactId": "spring-data-jpa",
             "repository": null,
             "version": "1.3.4.RELEASE",
-            "supported": false,
-            "versionDisplayName": "1.3.4",
             "current": true,
-            "preRelease": false
+            "preRelease": false,
+            "snapshot": false,
+            "generalAvailability": true,
+            "versionDisplayName": "1.3.4"
           }
         ]
       });
