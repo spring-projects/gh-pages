@@ -24,7 +24,7 @@ badges:
       icon: ci
 
     - name: Forum
-      url:  http://forum.springframework.io/forum/spring-projects/data
+      url:  http://forum.spring.io/forum/spring-projects/data
       icon: forum
 
     - name: StackOverflow

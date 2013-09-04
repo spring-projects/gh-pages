@@ -7,11 +7,11 @@ describe("QuickStartWidget", function () {
         "id": "spring-data-jpa",
         "name": "Spring Data JPA",
         "repoUrl": "http://github.com/SpringSource/spring-data-jpa",
-        "siteUrl": "http://projects.springframework.io/spring-data-jpa",
+        "siteUrl": "http://projects.spring.io/spring-data-jpa",
         "projectReleases": [
           {
-            "refDocUrl": "http://docs.springframework.io/spring-data/jpa/docs/1.4.0.RC1/reference/html/",
-            "apiDocUrl": "http://docs.springframework.io/spring-data/jpa/docs/1.4.0.RC1/api/",
+            "refDocUrl": "http://docs.spring.io/spring-data/jpa/docs/1.4.0.RC1/reference/html/",
+            "apiDocUrl": "http://docs.spring.io/spring-data/jpa/docs/1.4.0.RC1/api/",
             "groupId": "org.springframework.data",
             "artifactId": "spring-data-jpa",
             "repository": {
@@ -28,8 +28,8 @@ describe("QuickStartWidget", function () {
             "versionDisplayName": "1.4.0.RC1"
           },
           {
-            "refDocUrl": "http://docs.springframework.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/",
-            "apiDocUrl": "http://docs.springframework.io/spring-data/jpa/docs/1.3.4.RELEASE/api/",
+            "refDocUrl": "http://docs.spring.io/spring-data/jpa/docs/1.3.4.RELEASE/reference/html/",
+            "apiDocUrl": "http://docs.spring.io/spring-data/jpa/docs/1.3.4.RELEASE/api/",
             "groupId": "org.springframework.data",
             "artifactId": "spring-data-jpa",
             "repository": null,

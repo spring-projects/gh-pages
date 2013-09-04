@@ -15,7 +15,7 @@ baseurl: /spring-framework
 # Name of the project for display in places like page titles
 name: Spring Framework
 
-# ID of the project in the metadata API at springframework.io (if this is not a
+# ID of the project in the metadata API at spring.io (if this is not a
 # valid project ID the javascript widgets in the home page will not work)
 project: spring-framework
 
@@ -23,11 +23,11 @@ project: spring-framework
 github_repo_url: http://github.com/spring-projects/spring-framework
 
 # Project forum URL
-forum: http://forum.springframework.io/forum/spring-projects/container
+forum: http://forum.spring.io/forum/spring-projects/container
 
 
 ### The following properties are constant for most projects
 
-main_site_url: http://springframework.io
-projects_site_url: http://projects.springframework.io
-forum_url: http://forum.springframework.io
+main_site_url: http://spring.io
+projects_site_url: http://projects.spring.io
+forum_url: http://forum.spring.io
