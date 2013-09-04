@@ -17,7 +17,7 @@ describe("QuickStartWidget", function () {
             "repository": {
               "id": "spring-milestones",
               "name": "Spring Milestones",
-              "url": "http://repo.springsource.org/milestone",
+              "url": "http://repo.spring.io/milestone",
               "snapshotsEnabled": false
             },
             "version": "1.4.0.RC1",
@@ -73,7 +73,7 @@ describe("QuickStartWidget", function () {
 
           expect($('#maven_widget')).toContainText("spring-milestones");
           expect($('#maven_widget')).toContainText("Spring Milestones");
-          expect($('#maven_widget')).toContainText("http://repo.springsource.org/milestone");
+          expect($('#maven_widget')).toContainText("http://repo.spring.io/milestone");
           expect($('#maven_widget')).toContainText("false");
       });
 
@@ -83,7 +83,7 @@ describe("QuickStartWidget", function () {
           expect($('#maven_widget')).not.toContainText("repository");
           expect($('#maven_widget')).not.toContainText("spring-milestones");
           expect($('#maven_widget')).not.toContainText("Spring Milestones");
-          expect($('#maven_widget')).not.toContainText("http://repo.springsource.org/milestone");
+          expect($('#maven_widget')).not.toContainText("http://repo.spring.io/milestone");
           expect($('#maven_widget')).not.toContainText("false");
       });
     });
@@ -102,7 +102,7 @@ describe("QuickStartWidget", function () {
         $('#jasmine_content select').val(0).change();
 
         expect($('#maven_widget')).toContainText("repositories");
-        expect($('#maven_widget')).toContainText("http://repo.springsource.org/milestone");
+        expect($('#maven_widget')).toContainText("http://repo.spring.io/milestone");
       });
     });
   });
