@@ -90,8 +90,14 @@ Spring.DocumentationWidgetView = Backbone.View.extend({
 Spring.SnippetView = Backbone.View.extend({
   initialize: function () {
     var snippetType = this.options.snippetType;
-    this.combinedTemplate = _.template($("#project-download-" + snippetType + "-widget-template").text());
-
+    var downloadTemplate = $(document.createElement('div')).html($("#project-download-" + snippetType + "-widget-template").text());
+    var repositoryTemplate = $(document.createElement('div')).html($("#project-repository-" + snippetType + "-widget-template").text());
+    this.combinedTemplate = _.template(
+        downloadTemplate.find("code:first").html() +
+        "{@ if (repository) { @}" +
+        repositoryTemplate.find("code:first").html() +
+        "{@ } @}"
+    );
     _.bindAll(this, "render");
   },
 
