@@ -141,6 +141,9 @@ Spring.QuickStartSelectorView = Backbone.View.extend({
 
   selectCurrent: function() {
       var selectedIndex = $('.selectpicker [data-current="true"]').val();
+      if(selectedIndex == undefined) {
+        selectedIndex = 0;
+      }
       this.$('.selectpicker').val(selectedIndex).change();
   },
 
