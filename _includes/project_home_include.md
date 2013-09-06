@@ -1,6 +1,6 @@
 {% include billboard.md %}
 
-<div class="billboard-body--wrapper project-body--container" id="quick-start">
+<div class="project-body--wrapper" id="quick-start">
 <div class="github-fork-ribbon--wrapper">
 <div class="github-fork-ribbon">
 <a href="{{ site.github_repo_url }}">
@@ -9,6 +9,8 @@ Fork me on GitHub
 </a>
 </div>
 </div>
+<div class="project-body--container">
+<div class="container-fluid">
 <div class="row-fluid">
 <div class="span8">
 <div class="project-body--section">
@@ -16,5 +18,7 @@ Fork me on GitHub
 </div>
 </div>
 <div class="span4">{% include project_sidebar.md %}</div>
+</div>
+</div>
 </div>
 </div>

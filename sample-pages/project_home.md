@@ -80,8 +80,17 @@ corpus callosum!
 
 
 ```java
-public static void main() {
-  foo();
+package foo;
+
+import foo;
+
+public class SearchController {
+
+    @Foo
+  public SearchController(SearchService searchService) {
+    this.searchService = searchService;
+  }
+
 }
 ```
 

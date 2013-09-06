@@ -1,12 +1,18 @@
 .js-download-widget-selector {
     display: inline;
 }
-.container-fluid {
-  width: 1024px !important;
+
+.navbar {
+    margin-bottom: 0;
 }
 .navbar-inner {
   min-width: 1060px;
 }
+.navbar-inner .container-fluid {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .billboard--wrapper, .key-feature--wrapper, .offset-feature--container, .support--wrapper, footer, .search-dropdown--container, .team-map--wrapper, .billboard-bg {
   min-width: 1100px;
 }
@@ -30,11 +36,6 @@ body {
   z-index: 700;
 }
 
-.container-fluid {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
 .title-divider {
   width: 75%;
   height: 5px;
@@ -56,7 +57,6 @@ body {
 }
 
 .header--navbar {
-  margin: 0;
 }
 .header--navbar .navbar-inner {
   position: absolute;
@@ -256,11 +256,6 @@ body {
   color: #4e681e;
 }
 
-.body--container {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
 .row--container {
   margin-bottom: 60px;
 }
@@ -458,12 +453,9 @@ input.floating-input:focus {
   line-height: 12px;
   text-transform: uppercase;
   padding-top: 8px;
-  position: absolute;
-  margin-top: -30px;
   font-family: "Montserrat", sans-serif;
-}
-.content--title.search-title {
-  position: relative;
+  margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 .index-page--title {
@@ -516,6 +508,10 @@ input.floating-input:focus {
   background-color: #34302d;
   color: #eeeeee;
   padding: 30px 0;
+}
+.footer .footer--container {
+  margin: 0 auto;
+  max-width: 1024px;
 }
 .footer a {
   color: #6db33f;
@@ -799,27 +795,13 @@ input.floating-input:focus {
   padding: 20px;
 }
 
-.billboard--wrapper {
-  position: absolute;
-  top: 74px;
-  left: 0;
-  right: 0;
-}
 .billboard--wrapper .billboard--container {
-  position: absolute;
-  z-index: 600;
-  width: 100%;
+  max-width: 1024px;
   margin: 0 auto;
-  margin-top: 80px;
+  position: relative;
 }
 .billboard--wrapper .billboard-bg {
-  height: 425px;
   border-bottom: 1px solid #34302d;
-}
-
-.billboard-body--wrapper {
-  margin-top: 326px;
-  padding: 100px 0;
 }
 
 .search-facets > ul {
@@ -827,4 +809,18 @@ input.floating-input:focus {
 }
 .search-facets ul {
   list-style-type: none;
+}
+
+
+.body--container {
+    padding: 0;
+}
+
+.search-form--container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    padding: 0;
 }

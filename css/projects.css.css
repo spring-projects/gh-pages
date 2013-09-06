@@ -4,8 +4,8 @@
 .projects--wrapper .project--container {
   border: 1px solid #34302d;
   display: inline-block;
-  width: 328px;
-  height: 338px;
+  width: 327px;
+  height: 337px;
   margin: 0 6px 20px 6px;
   vertical-align: top;
   text-align: center;
@@ -130,15 +130,6 @@
   background-color: #666;
   border-bottom: 1px solid #34302D;
 }
-.project-header--wrapper .billboard--container {
-  margin: 60px 0;
-  position: relative;
-}
-.project-header--wrapper .content--title {
-  position: relative;
-  margin-bottom: 30px;
-  margin-top: 0;
-}
 .project-header--wrapper .content--title a {
   color: #f1f1f1;
 }
@@ -156,7 +147,7 @@
 }
 .project-header--wrapper .project--links--container {
   float: right;
-  margin-top: -9px;
+  margin-top: -10px;
 }
 .project-header--wrapper .project--links--container .project-link {
   display: inline-block;
@@ -194,6 +185,7 @@
 }
 .project-header--wrapper .project-quickstart-btn {
   margin-top: 30px;
+  margin-bottom: 60px;
 }
 .project-header--wrapper .project-download-widget-btn {
   margin-top: 40px;
@@ -205,20 +197,26 @@
   height: auto;
   border-bottom: none;
 }
-.project-header--wrapper .billboard-bg .billboard-icon {
-  width: 364px;
-  height: 364px;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  margin-top: -182px;
-  opacity: 0.5;
-  overflow: hidden;
+.project-header--wrapper .billboard--icon {
+    float: right;
 }
 
-.project-header--wrapper .billboard-bg .billboard-icon img {
-  width: 364px;
-  height: 364px;
+.billboard--icon-container {
+  position: absolute;
+  height: 100%;
+  right: -17px;
+  background-position: center;
+  min-width: 364px;
+  background-repeat: no-repeat;
+}
+
+.project-body--wrapper {
+    min-width: 1100px;
+}
+
+.project-body--container {
+    margin: 100px auto;
+    width: 1024px;
 }
 
 .project-body--container .project-body--section#download-widget {
