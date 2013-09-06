@@ -31,6 +31,26 @@
     </script>
     <script type="text/javascript" src="{{site.baseurl}}/js/copySnippets.js"></script>
     <meta name="google-site-verification" content="7qGntFPD9lWAVCtUu5U77v4l68PsTHf6xpzgjQv2j2M" />
+  <script>
+    //
+      var _gaq = _gaq || [];
+      var pluginUrl =
+       '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+      _gaq.push(
+        ['_require', 'inpage_linkid', pluginUrl],
+        ['_setAccount', 'UA-2728886-22'],
+        ['_trackPageview'],
+        ['b._require', 'inpage_linkid', pluginUrl],
+        ['b._setAccount', 'UA-2728886-19'],
+        ['b._trackPageview']
+      );
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
 </head>
 <body>
 <header class="navbar header--navbar">
@@ -101,15 +121,12 @@
             </div>
             <div class="span4 footer-newsletter--wrapper pull-right">
                 <div class="footer-newsletter--container">
-                    <form>
-                        <label>
-                            Subscribe to our newsletter
-                        </label>
-                        <div class="footer-subscribe--input--container">
-                            <input class="footer-subscribe--input" placeholder="Email Address (NOT REAL)" />
-                            <input type="submit" class="btn footer-subscibe--btn" value="Subscribe" />
-                        </div>
-                    </form>
+                    <label>
+                        Subscribe to our newsletter
+                    </label>
+                    <div>
+                        <iframe src="http://play.gopivotal.com/OSS_Website_Spring_SpringNewsletterSubscriptionEmailOnly.html" frameBorder="0" scrolling="no" height="42px" width="324px" style="border:none"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,15 +134,5 @@
 </footer>
 <div id="scrim"></div>
 {% include widget_templates.html %}
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-42447510-1', 'cfapps.io');
-    ga('send', 'pageview');
-
-</script>
 </body>
 </html>
