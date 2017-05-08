@@ -96,12 +96,20 @@ Of course the next step is simply to change the prose within each `{% capture %}
 
 Assuming you're already within your project's clone directory, and you've already checked out the `gh-pages` branch, follow these simple directions to view your site locally:
 
-### Install jekyll if you have not already
+### Install ruby and bundler
 
-> **Note:** Jekyll 3.0.4 is a known good version, and it is specifically referred to in `Gemfile.lock` so you have to use `bundle` (not `gem install ...`) to install it:
+If you don't have rbenv, install that first with `brew install rbenv`.
 
+Bring down the matching version of ruby per the `.ruby-version` specified in this project and also install bundler.
+
+    rbenv install
     gem install bundler
-    bundle
+
+### Install jekyll and other gh-pages packages
+
+The GitHub Pages service uses the [github-pages-gem](https://github.com/github/pages-gem) to bundle dependencies including Jekyll itself. By including this gem in the `Gemfile` for this project, we ensure that local builds use the same dependency versions as the online build at GitHub.    
+
+    bundle install
 
 ### Run jekyll
 
